@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng kí</title>
+     <link rel="stylesheet" href="./Login_css/DangKi.css">
+    <!-- <script type="text/javascript" src="assest/main.js/main.js"></script> -->
+</head>
+
+<body>
+
+    <div class="main">
+
+        <form action="" method="POST" class="form" id="form-1">
+            <a href="./login_web.html" style="text-decoration: none;">
+                <h3 class="heading">Đăng Kí Thành Viên Fashion</h3>
+            </a>
+
+            <p class="desc">Học Lập Trình Tại CodeGym </p>
+            <h4> Hùng trần</h4>
+
+            <div class="spacer"></div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên Đăng Nhập</label>
+                <input id="fullname" name="fullname" type="text" placeholder="VD: Hùng Trần " class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: hungkunfu@gmail.com" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu"
+                    type="password" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <button class="form-submit"> <a href="./login_web.html">Đăng ký</a> </button>
+            <br><br>
+            <style>
+                #time {
+                    width: 100px;
+                    margin: auto;
+                    padding: 15px;
+                    color: aqua;
+                    background: black;
+                    text-align: center;
+                }
+            </style>
+            <div id="time">
+                <script>
+                    function dongho() {
+                        var time = new Date();
+                        var gio = time.getHours();
+                        var phut = time.getUTCMinutes();
+                        var giay = time.getSeconds();
+                        var ngay = time.getDate();
+                        var thang = time.getMonth() + 1;
+
+                        var nam = time.getUTCFullYear();
+                        if (gio < 10)
+                            gio = '0' + gio;
+
+                        if (phut < 10)
+                            phut = '0' + phut;
+
+                        if (giay < 10)
+                            giay = '0' + giay;
+
+                        document.getElementById("time").innerHTML = gio + ':' + phut + ':' + giay + '' + "\n" + ngay + '/' + thang + '/' + nam;
+                        // document.getElementById("").innerHTML = ngay + '/' + thang;
+                        setTimeout("dongho()", 1000);
+
+
+
+                    }
+                    dongho();
+                </script>
+
+
+</body>
+
+</html>

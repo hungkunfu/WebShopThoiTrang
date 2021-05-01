@@ -1,0 +1,254 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    
+
+}
+.container {
+    width: 1170px;
+    padding-left: 30px;
+    padding-right: 40px;
+  padding: 5px;
+    margin: 0px auto;
+
+    
+ }
+ /* ======================content ================== */ 
+#content{
+    flex:765px;
+    padding-right: 15px;
+
+}
+#sidebar{
+    flex: 375px;
+    padding-left: 15px;
+}
+/* ==========================side bar */
+ul {
+    list-style: none;
+    padding: 0px;
+}
+#header {
+   background:gray;
+   /* background-image: url("project/thoikhoabieu/img/background.jpg"); */
+   
+  
+}
+form#search {
+    
+    position: relative;
+
+}
+form#search input {
+    background: burlywood;
+    width: 248px;
+    border: none;
+    outline: none;
+    padding: 9px 42px 9px 15px;
+
+
+
+}
+form#search button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border: none;
+    padding: 9px 12px;
+
+}
+#button .text:hover{
+    color:black;
+}
+
+nav{
+    
+    margin-top: 7px;
+    flex: 100%;
+    border-right: 10px solid red;
+  
+
+}
+ ul#main-menu li a {
+    padding: 5px 20px;
+    display: block;
+    color: white;
+    
+   
+}
+#main-menu li:hover a {
+    color:greenyellow;
+    text-decoration: none;
+}
+
+
+.container#main-menu li a{
+    padding: 5px 20px;
+    color: white;
+    
+}
+.box .box-body{
+    padding-top: 10px;
+}
+.box.featured-post .box-body{
+    padding-bottom: 15px;
+    border-bottom: 2px solid;
+}
+
+/* ===================fearchpost=============== */
+.box .box-head h2 {
+    display: inline-block;
+    color: #eee;
+    background: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1px 20px;
+    margin-bottom: 0;
+}
+ul.list-featured-post li{
+    flex: 360px 0 1;
+}
+ul.list-featured-post li a.post-title {
+    color: grey;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    display: block;
+}
+ul.list-featured-post li .post-thumb:hover img {
+    transform: scale(1.3);
+}
+ul.list-featured-post li .post-thumb {
+    display: block;
+    overflow: hidden;
+}
+ul.list-featured-post li .post-thumb img {
+    transition: all 0.5s;
+}
+ul.list-featured-post li .post-title:hover a {
+    color: black;
+}
+ul.list-post li {
+    display: flex;
+}
+
+ul.list-post li .post-thumb{
+    display: block;
+    padding-right: 15px;
+    flex: 280px;
+}ul.list-post .more-info{
+    padding: 55px;
+}
+.post-title {
+    color: black;
+    font-size: 21px;
+    font-weight: 600;
+}
+.ul.post-title li:hover .more-info a.post-title{
+    color: burlywood;
+}
+.post-author {
+    color:red;
+    font-weight: 600;
+}
+.post-date{
+    color: #aaa;
+}
+
+/* ===============side bar ===================== */
+#sidebar a.ads{
+    display: block;
+    margin-bottom: 35px;
+}
+.top-topic .box-head{
+    border-bottom: 2px salmon;
+}
+.top-topic .box-head h2{
+    border-bottom: 2px solid red;
+
+}
+ul .list-topic li a{
+    position: relative;
+    color: saddlebrown;
+    font-size: 16px;
+    display: block;
+    padding: 6px 0px;
+}
+span .num-post{
+    position: relative;
+    top: 10px;
+    right: 10px;
+
+}
+.box-topic .box-body .list-post li a{
+    position: relative;
+    top: 10px;
+    right: 20px;
+
+}
+.post-thumb:hover a{
+    color:black;
+}
+/* #footer {
+    background: red;
+    /* padding-top: 52px;
+    padding-bottom: 75px; 
+    color: red;
+    
+   
+
+} */
+#footer .box .box-head h2{
+    background:none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#footer .box .logo{
+    flex:680px;
+    padding-right: 15px;
+}
+/* .box .box-head {
+    padding-right: 0px;
+    padding-left: 100px; */
+
+ul.social li a{
+    background: black;
+    padding: 15px 20px;
+    color: blue;
+}
+ul.social li:first-child{
+    margin-left: 0;
+}
+#copyright{
+    background:wheat;
+    padding-bottom: 0px;
+    padding-top: 10px 2px;
+    padding: 15px 25px;
+    text-align: center;
+}
+#copyright ul li{
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.container .copyright{
+    padding: 0px 0px;
+    /* width: 1170px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding: 10px; */
+    margin: 2px auto;
+}
+a{
+    text-decoration: none;
+}
+
+
+.justify-content-between {
+    justify-content: space-between;
+  }
+  .d-flex {
+      display:flex;
+  }

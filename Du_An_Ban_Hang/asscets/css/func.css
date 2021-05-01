@@ -1,0 +1,11 @@
+.justify-content-between{
+    justify-content: space-between;
+}
+.d-flex {
+    display: flex;
+}
+@media all and (max-width: 320px) {
+    body {
+       background: #e7e7e7;
+    }
+ }

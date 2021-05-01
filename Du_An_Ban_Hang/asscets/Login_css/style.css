@@ -1,0 +1,18 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: Montserrat-Bold;
+    z-index: 9999;
+  } 
+  ::-webkit-scrollbar {
+    background:black;
+    width:4px;
+    height: 20px;
+    overflow: hidden;
+    }
+    ::-webkit-scrollbar-thumb {         
+    background:white !important;
+    border-radius: 30px;
+    }
+  /* Add a dark background color with a little bit see-through */ 
